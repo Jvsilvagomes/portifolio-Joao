@@ -1,2 +1,44 @@
-# portifolio-Joao
-Meu portfólio pessoal com projetos, habilidades e informações sobre mim, desenvolvido para apresentar meu perfil profissional e minha evolução na área de tecnologia.
+# Portfólio Pessoal — João Victor
+
+Bem-vindo ao meu portfólio!  
+Este repositório reúne meus principais projetos, habilidades e informações sobre mim, servindo como uma vitrine do meu desenvolvimento na área de tecnologia e programação.
+
+---
+
+## 👨‍💻 Sobre mim
+
+Olá! Me chamo **João Victor** e sou apaixonado por tecnologia, criação e desenvolvimento web.  
+Estou sempre buscando aprender coisas novas e evoluir minhas habilidades, desenvolvendo projetos práticos que mostram meu crescimento na área.
+
+Este portfólio foi criado para apresentar:
+- Meus projetos
+- Minhas habilidades técnicas
+- Formas de contato
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+Este portfólio foi desenvolvido utilizando:
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- Git & GitHub  
+
+---
+
+## 📁 O que você vai encontrar aqui
+
+- Seção "Sobre mim"
+- Área de projetos
+- Contato
+- Layout responsivo e elegante
+
+Tudo foi pensado para ser simples, organizado e fácil de navegar.
+
+---
+
+## 🌐 Acesse o portfólio
+
+Assim que estiver publicado no GitHub Pages, você poderá acessá-lo por aqui:
