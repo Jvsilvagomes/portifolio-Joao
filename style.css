@@ -115,3 +115,61 @@ h1 {
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.05);
 }
+
+.projetos{
+    padding: 6rem 2rem;
+}
+
+.projetos-titulo{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+.projeto-item:hover{
+    box-shadow: 0 10px 2px rgba(79, 70, 229, 0.3);
+    transform: translateY(-10px) scale(1.03);
+}
+
+.projetos-caixa{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projeto-item{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--vidro);
+    overflow: hidden;
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+
+.projetos-imagem{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-projetos{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align:start;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    color: var(--claro);
+}
+
+.caixa-texto-projeto{
+    padding: 1.5rem 1.5rem 2rem 1.5rem;
+}
+
+.paragrafo-projetos{
+    color: rgba(226, 232, 240, 0.8);
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1rem;
+}
