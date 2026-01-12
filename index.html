@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>João | Portifólio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navegacao">
@@ -46,16 +47,29 @@ Estou sempre buscando aprender coisas novas e evoluir minhas habilidades, desenv
         h2 class="projetos-titulo">Meus Projetos</h2>
         <div class="projetos-caixa">
             <div class="projeto-item">
-                <img src="./img/CollectionHub_Presentation.png" alt="">
-                <h3>CollectionHub</h3>
-                <p>Descrição do projeto.</p>
+                <img src="./img/CollectionHub_Presentation.png" alt="Projeto 1" class="projetos-imagem">
+                <h3 class="info-projetos">CollectionHub</h3>
+                <p class="paragrafo-projetos">Plataforma digital completa para colecionadores de Pokémon TCG Pocket. Organize, exiba e gerencie suas coleções com autenticação segura, upload de imagens e busca avançada.</p>
             </div>
             <div class="projeto-item">
-                <img src="./img/KickOff Studios.png" alt="">
-                <h3>KickOff</h3>
-                <p>Descrição do projeto.</p>
+                <img src="./img/KickOff Studios.png" alt="projeto 2" class="projetos-imagem">
+                <h3 class="info-projetos">KickOff</h3>
+                <p class="paragrafo-projetos">O projeto consiste na reformulação total do site de uma multinacional fictícia, com o objetivo de proporcionar uma "glow-up" digital.</p>
             </div>
         </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Contatos</h2>
+        <form class="formulario-contato" id="formulario">
+            <div>
+                <input placeholder="Nome" class="campo-form">
+            </div>
+            <div>
+                <textarea  class="text-form" placeholder="Digite sua Mensagem"></textarea>
+            </div>
+        </form>
+
     </section>
 </body>
 </html>
