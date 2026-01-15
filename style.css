@@ -10,12 +10,14 @@ html {
 }
 
 :root {
-    --primaria: #4f46e5;
-    --secundaria: #7c3aed;
-    --escuro: #0f172a;
-    --maisEscuro: #0a0f1c;
-    --claro: #e2e8f0;
-    --vidro: rgba(255, 255, 255, 0.1);
+    --primaria: #06b6d4; /* teal/cyan */
+    --secundaria: #8b5cf6; /* violet */
+    --primaria-rgb: 6, 182, 212;
+    --secundaria-rgb: 139, 92, 246;
+    --escuro: #071224; /* deep navy */
+    --maisEscuro: #03060a; /* almost black */
+    --claro: #e6f0f6; /* soft light */
+    --vidro: rgba(255, 255, 255, 0.06);
 }
 
 body {
@@ -26,7 +28,7 @@ body {
 .navegacao {
     position: fixed;
     top: 0;
-    background: rgba(15, 23, 42, 0.8);
+    background: rgba(7, 18, 36, 0.8);
     width: 100%;
     z-index: 100;
     padding: 1.5rem;
@@ -73,7 +75,7 @@ body {
 .foto-perfil {
     width: 200px;
     height: 200px;
-    box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
+    box-shadow: 0 6px 30px rgba(var(--primaria-rgb), 0.12);
     border-radius: 50%;
     border: 4px solid var(--vidro);
     animation: flutuar 3s ease-in-out infinite;
@@ -146,7 +148,7 @@ h1 {
 }
 
 .projeto-item:hover {
-    box-shadow: 0 10px 2px rgba(79, 70, 229, 0.3);
+    box-shadow: 0 18px 40px rgba(var(--secundaria-rgb), 0.12);
     transform: translateY(-10px) scale(1.03);
 }
 
@@ -227,8 +229,8 @@ h1 {
 }
 
 .campo-form:focus {
-    border: var(--secundaria);
-    box-shadow: 0 0 10px rgba(79, 70, 229, 0.3);
+    border-color: var(--secundaria);
+    box-shadow: 0 8px 30px rgba(var(--primaria-rgb), 0.12);
 }
 
 .grupo-form {
@@ -249,7 +251,7 @@ h1 {
 
 .botao-form:hover {
     transform: translateY(-4px);
-    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.4);
+    box-shadow: 0 10px 40px rgba(var(--secundaria-rgb), 0.18);
 }
 
 .particulas {
@@ -259,10 +261,10 @@ h1 {
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.6;
     background:
-        radial-gradient(circle at 10% 20%, var(--primaria) 0%, transparent 20%),
-        radial-gradient(circle at 90% 80%, var(--secundaria) 0%, transparent 20%),
+        radial-gradient(circle at 10% 20%, rgba(var(--primaria-rgb),0.20) 0%, transparent 22%),
+        radial-gradient(circle at 90% 80%, rgba(var(--secundaria-rgb),0.18) 0%, transparent 22%),
         var(--maisEscuro)
 }
 
@@ -280,7 +282,7 @@ h1 {
 
 .footer {
     color: #fff;
-    background: rgba(15, 23, 42, 0.4);
+    background: rgba(7, 18, 36, 0.6);
     text-align: center;
     padding: 20px 10px;
 }
