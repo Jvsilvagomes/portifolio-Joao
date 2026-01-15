@@ -115,6 +115,61 @@ h1 {
     padding: 4rem 2rem;
 }
 
+.formacao {
+    padding: 4rem 2rem;
+}
+
+.formacao-titulo {
+    font-size: 2.5rem;
+    color: var(--claro);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formacao-caixa {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.habilidades-area {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formacao-item {
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--vidro);
+    backdrop-filter: blur(6px);
+}
+
+.formacao-subtitulo {
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+    color: var(--claro);
+}
+
+.formacao-texto {
+    color: rgba(230, 240, 246, 0.9);
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.lista-habilidades {
+    list-style: none;
+    padding-left: 0;
+    color: rgba(230, 240, 246, 0.9);
+}
+
+.lista-habilidades li {
+    margin-bottom: 8px;
+}
+
 .sobre-titulo {
     font-size: 3rem;
     color: var(--claro);
