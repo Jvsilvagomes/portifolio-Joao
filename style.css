@@ -255,3 +255,31 @@ h1 {
         transform: translateY(-20px);
     }
 }
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-icons {
+  margin-top: 10px;
+}
+
+.footer-icons a {
+  color: #aaa;
+  font-size: 22px;
+  margin: 0 10px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #fff;
+  transform: translateY(-3px);
+}
