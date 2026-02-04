@@ -12,6 +12,7 @@ Estou sempre buscando aprender coisas novas e evoluir minhas habilidades, desenv
 
 Este portfólio foi criado para apresentar:
 - Meus projetos
+- Minhas Certificações
 - Minhas habilidades técnicas
 - Formas de contato
 
@@ -31,7 +32,9 @@ Este portfólio foi desenvolvido utilizando:
 ## 📁 O que você vai encontrar aqui
 
 - Seção "Sobre mim"
+- Habilidades e Tecnologias
 - Área de projetos
+- Cursos adicionais 
 - Contato
 - Layout responsivo e elegante
 
@@ -40,5 +43,4 @@ Tudo foi pensado para ser simples, organizado e fácil de navegar.
 ---
 
 ## 🌐 Acesse o portfólio
-
-Assim que estiver publicado no GitHub Pages, você poderá acessá-lo por aqui:
+(https://portifolio-joao-ten.vercel.app/)
