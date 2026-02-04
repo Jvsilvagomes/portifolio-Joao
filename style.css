@@ -10,13 +10,13 @@ html {
 }
 
 :root {
-    --primaria: #06b6d4; /* teal/cyan */
-    --secundaria: #8b5cf6; /* violet */
+    --primaria: #06b6d4;
+    --secundaria: #8b5cf6; 
     --primaria-rgb: 6, 182, 212;
     --secundaria-rgb: 139, 92, 246;
-    --escuro: #071224; /* deep navy */
-    --maisEscuro: #03060a; /* almost black */
-    --claro: #e6f0f6; /* soft light */
+    --escuro: #071224; 
+    --maisEscuro: #03060a; 
+    --claro: #e6f0f6;
     --vidro: rgba(255, 255, 255, 0.06);
 }
 
@@ -27,6 +27,11 @@ body {
     background-color: var(--escuro);
     color: var(--claro);
 }
+
+@keyframes fadeInPage {
+            from { opacity: 0; filter: blur(10px); }
+            to { opacity: 1; filter: blur(0); }
+        }
 
 .site-wrap {
     flex: 1 0 auto;
@@ -175,6 +180,14 @@ h1 {
     margin-bottom: 8px;
 }
 
+.formacao-descricao {
+    color: rgba(230, 240, 246, 0.6);
+    font-size: 0.9rem;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
 .lista-habilidades {
     list-style: none;
     padding-left: 0;
@@ -183,6 +196,61 @@ h1 {
 
 .lista-habilidades li {
     margin-bottom: 8px;
+}
+
+.acordeao-item {
+    margin-bottom: 1rem;
+}
+
+.acordeao-botao {
+    width: 100%;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--vidro);
+    border-radius: 12px;
+    color: var(--claro);
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(6px);
+}
+
+.acordeao-botao:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--primaria);
+    color: var(--primaria);
+}
+
+.acordeao-botao i {
+    transition: transform 0.3s ease;
+}
+
+.acordeao-botao.ativo i {
+    transform: rotate(180deg);
+}
+
+.acordeao-conteudo {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--vidro);
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+}
+
+.acordeao-conteudo.aberto {
+    max-height: 500px;
+    padding: 1.5rem;
+}
+
+.acordeao-conteudo ul {
+    margin: 0;
+    padding: 0;
 }
 
 .sobre-titulo {
