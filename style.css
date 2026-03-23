@@ -11,11 +11,11 @@ html {
 
 :root {
     --primaria: #06b6d4;
-    --secundaria: #8b5cf6; 
+    --secundaria: #8b5cf6;
     --primaria-rgb: 6, 182, 212;
     --secundaria-rgb: 139, 92, 246;
-    --escuro: #071224; 
-    --maisEscuro: #03060a; 
+    --escuro: #071224;
+    --maisEscuro: #03060a;
     --claro: #e6f0f6;
     --vidro: rgba(255, 255, 255, 0.06);
 }
@@ -244,7 +244,7 @@ h1 {
 }
 
 .acordeao-conteudo.aberto {
-    max-height: 500px;
+    max-height: 600px;
     padding: 1.5rem;
 }
 
